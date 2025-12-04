@@ -283,7 +283,7 @@ function callback_createInvite() {
 			TimeControl: inviteOptions.clock,
 			youAreColor: ourColor,
 			currentEngine: 'hydrochess',
-			engineConfig: { engineTimeLimitPerMoveMillis: 4000 }, // 4 seconds of think time
+			engineConfig: { engineTimeLimitPerMoveMillis: 2000 }, // 4 seconds of think time
 		});
 	}
 }
