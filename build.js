@@ -70,7 +70,9 @@ function ensureHydroChessWasmBuilt() {
 		console.warn(`${label}   git submodule update --init --remote`);
 		console.warn(`${label} Then restart the dev server or rebuild.`);
 		console.warn(`${label} Alternatively, you can download a prebuilt 'pkg' directory from:`);
-		console.warn(`${label}   https://github.com/FirePlank/infinite-chess-engine/releases`);
+		console.warn(
+			`${label}   https://github.com/tsevasa/tsevasa-infinite-chess-engine/releases`,
+		);
 		console.warn(`${label} Unpack it and copy the 'pkg' folder into:`);
 		console.warn(`${label}   ${HYDROCHESS_WASM_DIR}`);
 		return;
@@ -83,7 +85,9 @@ function ensureHydroChessWasmBuilt() {
 		console.warn(`${label}   git submodule update --init --remote`);
 		console.warn(`${label} Then restart the dev server or rebuild.`);
 		console.warn(`${label} Alternatively, download a prebuilt 'pkg' directory from:`);
-		console.warn(`${label}   https://github.com/FirePlank/infinite-chess-engine/releases`);
+		console.warn(
+			`${label}   https://github.com/tsevasa/tsevasa-infinite-chess-engine/releases`,
+		);
 		console.warn(`${label} Unpack it and copy the 'pkg' folder into:`);
 		console.warn(`${label}   ${HYDROCHESS_WASM_DIR}`);
 		return;
@@ -102,7 +106,9 @@ function ensureHydroChessWasmBuilt() {
 			`${label} Install Rust (which includes cargo) from https://rustup.rs, then rerun the build.`,
 		);
 		console.warn(`${label} Alternatively, download a prebuilt 'pkg' directory from:`);
-		console.warn(`${label}   https://github.com/FirePlank/infinite-chess-engine/releases`);
+		console.warn(
+			`${label}   https://github.com/tsevasa/tsevasa-infinite-chess-engine/releases`,
+		);
 		console.warn(`${label} Unpack it and copy the 'pkg' folder into:`);
 		console.warn(`${label}   ${HYDROCHESS_WASM_DIR}`);
 		return;
@@ -113,7 +119,9 @@ function ensureHydroChessWasmBuilt() {
 		console.warn(`${label} Install it with: cargo install wasm-pack`);
 		console.warn(`${label} Then rerun the build.`);
 		console.warn(`${label} Alternatively, download a prebuilt 'pkg' directory from:`);
-		console.warn(`${label}   https://github.com/FirePlank/infinite-chess-engine/releases`);
+		console.warn(
+			`${label}   https://github.com/tsevasa/tsevasa-infinite-chess-engine/releases`,
+		);
 		console.warn(`${label} Unpack it and copy the 'pkg' folder into:`);
 		console.warn(`${label}   ${HYDROCHESS_WASM_DIR}`);
 		return;
